@@ -1,0 +1,64 @@
+html, body {
+  font-family: arial;
+  background-color: #19191f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.playful {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 1000;
+}
+
+.playful .char {
+  color: orange;
+  text-shadow: 0.1px 0.1px red, 0.2px 0.2px red, 0.3px 0.3px red, 0.4px 0.4px red, 0.5px 0.5px red, 0.6px 0.6px red, 0.7px 0.7px red, 0.8px 0.8px red, 0.9px 0.9px red, 1px 1px red, 1.1px 1.1px red, 1.2px 1.2px red, 1.3px 1.3px red, 1.4px 1.4px red, 1.5px 1.5px red, 1.6px 1.6px red, 1.7px 1.7px red, 1.8px 1.8px red, 1.9px 1.9px red, 2px 2px red, 2.1px 2.1px red, 2.2px 2.2px red, 2.3px 2.3px red, 2.4px 2.4px red, 2.5px 2.5px red, 2.6px 2.6px red, 2.7px 2.7px red, 2.8px 2.8px red, 2.9px 2.9px red, 3px 3px red, 3.1px 3.1px red, 3.2px 3.2px red, 3.3px 3.3px red, 3.4px 3.4px red, 3.5px 3.5px red, 3.6px 3.6px red, 3.7px 3.7px red, 3.8px 3.8px red, 3.9px 3.9px red, 4px 4px red, 4.1px 4.1px red, 4.2px 4.2px red, 4.3px 4.3px red, 4.4px 4.4px red, 4.5px 4.5px red, 4.6px 4.6px red, 4.7px 4.7px red, 4.8px 4.8px red, 4.9px 4.9px red, 5px 5px red, 5.1px 5.1px red, 5.2px 5.2px red, 5.3px 5.3px red, 5.4px 5.4px red, 5.5px 5.5px red, 5.6px 5.6px red, 5.7px 5.7px red, 5.8px 5.8px red, 5.9px 5.9px red, 6px 6px red, 6.1px 6.1px red, 6.2px 6.2px red, 6.3px 6.3px red, 6.4px 6.4px red, 6.5px 6.5px red, 6.6px 6.6px red, 6.7px 6.7px red, 6.8px 6.8px red, 6.9px 6.9px red, 7px 7px red, 7.1px 7.1px red, 7.2px 7.2px red, 7.3px 7.3px red, 7.4px 7.4px red, 7.5px 7.5px red, 7.6px 7.6px red, 7.7px 7.7px red, 7.8px 7.8px red, 7.9px 7.9px red, 8px 8px red, 8.1px 8.1px red, 8.2px 8.2px red, 8.3px 8.3px red, 8.4px 8.4px red, 8.5px 8.5px red, 8.6px 8.6px red, 8.7px 8.7px red, 8.8px 8.8px red, 8.9px 8.9px red, 9px 9px red, 9.1px 9.1px red, 9.2px 9.2px red, 9.3px 9.3px red, 9.4px 9.4px red, 9.5px 9.5px red, 9.6px 9.6px red, 9.7px 9.7px red, 9.8px 9.8px red, 9.9px 9.9px red, 10px 10px red;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.playful .char:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.playful span:nth-child(2n) {
+  color: coral;
+  text-shadow: 0.1px 0.1px purple, 0.2px 0.2px purple, 0.3px 0.3px purple, 0.4px 0.4px purple, 0.5px 0.5px purple, 0.6px 0.6px purple, 0.7px 0.7px purple, 0.8px 0.8px purple, 0.9px 0.9px purple, 1px 1px purple, 1.1px 1.1px purple, 1.2px 1.2px purple, 1.3px 1.3px purple, 1.4px 1.4px purple, 1.5px 1.5px purple, 1.6px 1.6px purple, 1.7px 1.7px purple, 1.8px 1.8px purple, 1.9px 1.9px purple, 2px 2px purple, 2.1px 2.1px purple, 2.2px 2.2px purple, 2.3px 2.3px purple, 2.4px 2.4px purple, 2.5px 2.5px purple, 2.6px 2.6px purple, 2.7px 2.7px purple, 2.8px 2.8px purple, 2.9px 2.9px purple, 3px 3px purple, 3.1px 3.1px purple, 3.2px 3.2px purple, 3.3px 3.3px purple, 3.4px 3.4px purple, 3.5px 3.5px purple, 3.6px 3.6px purple, 3.7px 3.7px purple, 3.8px 3.8px purple, 3.9px 3.9px purple, 4px 4px purple, 4.1px 4.1px purple, 4.2px 4.2px purple, 4.3px 4.3px purple, 4.4px 4.4px purple, 4.5px 4.5px purple, 4.6px 4.6px purple, 4.7px 4.7px purple, 4.8px 4.8px purple, 4.9px 4.9px purple, 5px 5px purple, 5.1px 5.1px purple, 5.2px 5.2px purple, 5.3px 5.3px purple, 5.4px 5.4px purple, 5.5px 5.5px purple, 5.6px 5.6px purple, 5.7px 5.7px purple, 5.8px 5.8px purple, 5.9px 5.9px purple, 6px 6px purple, 6.1px 6.1px purple, 6.2px 6.2px purple, 6.3px 6.3px purple, 6.4px 6.4px purple, 6.5px 6.5px purple, 6.6px 6.6px purple, 6.7px 6.7px purple, 6.8px 6.8px purple, 6.9px 6.9px purple, 7px 7px purple, 7.1px 7.1px purple, 7.2px 7.2px purple, 7.3px 7.3px purple, 7.4px 7.4px purple, 7.5px 7.5px purple, 7.6px 7.6px purple, 7.7px 7.7px purple, 7.8px 7.8px purple, 7.9px 7.9px purple, 8px 8px purple, 8.1px 8.1px purple, 8.2px 8.2px purple, 8.3px 8.3px purple, 8.4px 8.4px purple, 8.5px 8.5px purple, 8.6px 8.6px purple, 8.7px 8.7px purple, 8.8px 8.8px purple, 8.9px 8.9px purple, 9px 9px purple, 9.1px 9.1px purple, 9.2px 9.2px purple, 9.3px 9.3px purple, 9.4px 9.4px purple, 9.5px 9.5px purple, 9.6px 9.6px purple, 9.7px 9.7px purple, 9.8px 9.8px purple, 9.9px 9.9px purple, 10px 10px purple;
+}
+
+.playful span:nth-child(3n) {
+  color: purple;
+  text-shadow: 0.1px 0.1px red, 0.2px 0.2px red, 0.3px 0.3px red, 0.4px 0.4px red, 0.5px 0.5px red, 0.6px 0.6px red, 0.7px 0.7px red, 0.8px 0.8px red, 0.9px 0.9px red, 1px 1px red, 1.1px 1.1px red, 1.2px 1.2px red, 1.3px 1.3px red, 1.4px 1.4px red, 1.5px 1.5px red, 1.6px 1.6px red, 1.7px 1.7px red, 1.8px 1.8px red, 1.9px 1.9px red, 2px 2px red, 2.1px 2.1px red, 2.2px 2.2px red, 2.3px 2.3px red, 2.4px 2.4px red, 2.5px 2.5px red, 2.6px 2.6px red, 2.7px 2.7px red, 2.8px 2.8px red, 2.9px 2.9px red, 3px 3px red, 3.1px 3.1px red, 3.2px 3.2px red, 3.3px 3.3px red, 3.4px 3.4px red, 3.5px 3.5px red, 3.6px 3.6px red, 3.7px 3.7px red, 3.8px 3.8px red, 3.9px 3.9px red, 4px 4px red, 4.1px 4.1px red, 4.2px 4.2px red, 4.3px 4.3px red, 4.4px 4.4px red, 4.5px 4.5px red, 4.6px 4.6px red, 4.7px 4.7px red, 4.8px 4.8px red, 4.9px 4.9px red, 5px 5px red, 5.1px 5.1px red, 5.2px 5.2px red, 5.3px 5.3px red, 5.4px 5.4px red, 5.5px 5.5px red, 5.6px 5.6px red, 5.7px 5.7px red, 5.8px 5.8px red, 5.9px 5.9px red, 6px 6px red, 6.1px 6.1px red, 6.2px 6.2px red, 6.3px 6.3px red, 6.4px 6.4px red, 6.5px 6.5px red, 6.6px 6.6px red, 6.7px 6.7px red, 6.8px 6.8px red, 6.9px 6.9px red, 7px 7px red, 7.1px 7.1px red, 7.2px 7.2px red, 7.3px 7.3px red, 7.4px 7.4px red, 7.5px 7.5px red, 7.6px 7.6px red, 7.7px 7.7px red, 7.8px 7.8px red, 7.9px 7.9px red, 8px 8px red, 8.1px 8.1px red, 8.2px 8.2px red, 8.3px 8.3px red, 8.4px 8.4px red, 8.5px 8.5px red, 8.6px 8.6px red, 8.7px 8.7px red, 8.8px 8.8px red, 8.9px 8.9px red, 9px 9px red, 9.1px 9.1px red, 9.2px 9.2px red, 9.3px 9.3px red, 9.4px 9.4px red, 9.5px 9.5px red, 9.6px 9.6px red, 9.7px 9.7px red, 9.8px 9.8px red, 9.9px 9.9px red, 10px 10px red;
+}
+
+.playful span:nth-child(5n) {
+  color: purple;
+  text-shadow: 0.1px 0.1px coral, 0.2px 0.2px coral, 0.3px 0.3px coral, 0.4px 0.4px coral, 0.5px 0.5px coral, 0.6px 0.6px coral, 0.7px 0.7px coral, 0.8px 0.8px coral, 0.9px 0.9px coral, 1px 1px coral, 1.1px 1.1px coral, 1.2px 1.2px coral, 1.3px 1.3px coral, 1.4px 1.4px coral, 1.5px 1.5px coral, 1.6px 1.6px coral, 1.7px 1.7px coral, 1.8px 1.8px coral, 1.9px 1.9px coral, 2px 2px coral, 2.1px 2.1px coral, 2.2px 2.2px coral, 2.3px 2.3px coral, 2.4px 2.4px coral, 2.5px 2.5px coral, 2.6px 2.6px coral, 2.7px 2.7px coral, 2.8px 2.8px coral, 2.9px 2.9px coral, 3px 3px coral, 3.1px 3.1px coral, 3.2px 3.2px coral, 3.3px 3.3px coral, 3.4px 3.4px coral, 3.5px 3.5px coral, 3.6px 3.6px coral, 3.7px 3.7px coral, 3.8px 3.8px coral, 3.9px 3.9px coral, 4px 4px coral, 4.1px 4.1px coral, 4.2px 4.2px coral, 4.3px 4.3px coral, 4.4px 4.4px coral, 4.5px 4.5px coral, 4.6px 4.6px coral, 4.7px 4.7px coral, 4.8px 4.8px coral, 4.9px 4.9px coral, 5px 5px coral, 5.1px 5.1px coral, 5.2px 5.2px coral, 5.3px 5.3px coral, 5.4px 5.4px coral, 5.5px 5.5px coral, 5.6px 5.6px coral, 5.7px 5.7px coral, 5.8px 5.8px coral, 5.9px 5.9px coral, 6px 6px coral, 6.1px 6.1px coral, 6.2px 6.2px coral, 6.3px 6.3px coral, 6.4px 6.4px coral, 6.5px 6.5px coral, 6.6px 6.6px coral, 6.7px 6.7px coral, 6.8px 6.8px coral, 6.9px 6.9px coral, 7px 7px coral, 7.1px 7.1px coral, 7.2px 7.2px coral, 7.3px 7.3px coral, 7.4px 7.4px coral, 7.5px 7.5px coral, 7.6px 7.6px coral, 7.7px 7.7px coral, 7.8px 7.8px coral, 7.9px 7.9px coral, 8px 8px coral, 8.1px 8.1px coral, 8.2px 8.2px coral, 8.3px 8.3px coral, 8.4px 8.4px coral, 8.5px 8.5px coral, 8.6px 8.6px coral, 8.7px 8.7px coral, 8.8px 8.8px coral, 8.9px 8.9px coral, 9px 9px coral, 9.1px 9.1px coral, 9.2px 9.2px coral, 9.3px 9.3px coral, 9.4px 9.4px coral, 9.5px 9.5px coral, 9.6px 9.6px coral, 9.7px 9.7px coral, 9.8px 9.8px coral, 9.9px 9.9px coral, 10px 10px coral;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,60 @@
+html, body {
+  font-family: arial;
+  background-color: #19191f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@function textShadow($precision, $size, $color){
+  $value: null; 
+  $offset: 0;
+  $length: $size * (1 / $precision) - 1;
+  @for $i from 0 through $length {
+    $offset: $offset + $precision;
+    $shadow: $offset + px $offset + px $color;
+    $value: append($value, $shadow, comma);
+  }
+  @return $value;
+}
+
+.playful {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 1000;
+}
+
+.playful .char {
+  color: orange;
+  text-shadow: textShadow(0.1, 10, red);
+  transition: transform .3s;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+.playful span:nth-child(2n) {
+  color: coral;
+  text-shadow: textShadow(0.1, 10, purple);
+}
+.playful span:nth-child(3n) {
+  color: purple;
+  text-shadow: textShadow(0.1, 10, red);
+}
+.playful span:nth-child(5n) {
+  color: purple;
+  text-shadow: textShadow(0.1, 10, coral);
+}
